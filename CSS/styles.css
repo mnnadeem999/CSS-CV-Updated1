@@ -1,0 +1,139 @@
+.top-container {
+    background-color: #EAF6F6;
+    position: relative;
+    padding-top: 100px;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+.bottom-cloud {
+    position: absolute;
+    left: 100px;
+}
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 2rem;
+}
+h1 {
+    margin: 50px auto 0 auto; 
+    font-family: 'Sacramento', cursive;
+    color: #66BFBF;
+}
+h2 {
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-right: 0%; 
+    font-family: 'Ysabeau Office', sans-serif;
+    font-size: 2.5rem;
+    color: #66BFBF;
+    font-weight: normal;
+    font-style: oblique;
+}
+h3 {
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-right: 0%; 
+    font-family: 'Ysabeau Office', sans-serif;
+    color: #11999E;
+    font-size: 1.5rem;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 2;
+}
+
+.contact {
+    width: 30%;
+    margin: 0 auto;
+    padding: 20px 0 20px 0;
+}
+
+.copyrights {
+    color: white;
+    font-size: 0.5rem;
+}
+a {
+    color: #30e3cb;
+    font-size: 1rem;
+    font-family: 'Ysabeau Office', sans-serif;
+    margin: 0 20px;
+    text-decoration: none;
+}
+a:hover {
+    color: blue;
+}
+
+.middle-container {
+    background-color: white;
+    padding: 50px 0 50px 0;
+}
+.skill-row {
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+    line-height: 2;
+    color: #40514E;
+}
+.web {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+.food {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.profile {
+    width: 50%;
+    margin: 100px auto;
+}
+.profilepic {
+    width: 15%;
+}
+hr {
+    width: 5%;
+    color: lightgray;
+    border-style: dotted none none;
+    border-width: 6px;
+    padding: 20px 0;
+}
+
+.bottom-container {
+    background-color: #66BFBF;
+    padding: 30px;
+}
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    text-shadow: 1px 1px 3px #666666;
+    font-family: 'Ysabeau Office', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px 20px;
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
